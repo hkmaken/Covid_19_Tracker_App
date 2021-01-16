@@ -1,0 +1,59 @@
+body {
+  font-family: "Baloo Thambi 2", cursive;
+}
+
+#header{
+	background-color: #2a6569;
+	text-align: center;
+	font-size: 19px;
+	height: 40px;
+}
+#header p{
+	color: white;
+	padding: 5px;
+}
+
+#navbar{
+	background-color:white;
+	text-align: right;
+	padding: 20px;
+	overflow: hidden;
+}
+
+#navbar ul{
+	padding:0;
+	list-style: none;
+}
+
+#navbar li{
+	display:inline;
+}
+
+#navbar a{
+	color:black;
+	text-decoration: none;
+	font-size:18px;
+	padding-right:15px;
+	font-weight: 900;
+}
+
+#showcase{
+	background-image:url('./coronavirus.jpg');
+	background-position:center right;
+	height: 800px;  
+	min-height:300px;
+	margin-bottom:30px;
+	text-align: center;
+}
+
+#showcase h1{
+	color:#fff;
+	font-size:50px;
+	line-height: 1.6em;
+	padding-top:30px;
+}
+
+.logo{
+	width: 100;
+	
+}
